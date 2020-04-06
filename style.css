@@ -2,7 +2,7 @@
   padding: 0; 
   margin: 0; 
   box-sizing: border-box;
-  height: 200vh;
+  height: 100vh;
 }
 
 body{ 
@@ -13,9 +13,9 @@ body{
 
 #hero-text {
   position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  /* top: 40%; */
+  /* left: 50%; */
+  /* transform: translate(-50%,-50%); */
 }
 
 #hero-text > g > path {
@@ -24,13 +24,19 @@ body{
 
 #hero-rose-logo {
   position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  /* top: 60%; */
+  /* left: 50%; */
+  /* transform: translate(-50%,-50%); */
 }
 
 #hero-rose-logo > g > path {
   opacity: 0; 
+}
+
+.svg-container { 
+  background-color: red;
+  width: 100px;
+  height: 100px;
 }
 
 @keyframes line-anim{
