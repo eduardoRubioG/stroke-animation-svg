@@ -35,6 +35,19 @@ body{
   justify-content: center; 
 }
 
+.svga { 
+  flex: 0 0 90px;
+}
+
+#arrow { 
+  width: 4vw;
+  height: 4vh;
+  -webkit-animation: pulse 2s infinite;
+  -moz-animation: pulse 2s infinite;
+  -o-animation: pulse 2s infinite;
+   animation: pulse 2s infinite;
+}
+
 
 
 
@@ -70,4 +83,25 @@ body{
   to{ 
     fill: #F0EAD6;
   }
+}
+
+@keyframes pulse {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-o-keyframes pulse{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes pulse{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes pulse{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
 }
