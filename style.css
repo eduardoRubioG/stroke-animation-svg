@@ -11,22 +11,41 @@ body{
   background-color: #1b1b1b; 
 }
 
-#hero-text {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+.content { 
+  height : 100vh;
+  /* background: blue; */
+  display : flex;
+  flex-direction : column;
+  align-items: center;
+  justify-content : space-around;
+  margin: 10px;
 }
+
+.content svg { 
+  width: 90vw;
+  height: 42vh; 
+}
+
+.svgc { 
+  flex: 1 1 auto; 
+  /* background: green; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+}
+
+
+
+
+
+
+
+
+/* Animation Stuff  */
 
 #hero-text > g > path {
   opacity: 0; 
-}
-
-#hero-rose-logo {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%,-50%);
 }
 
 #hero-rose-logo > g > path {
